@@ -1,0 +1,173 @@
+body,  html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    text-align: center;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* load = paralax
+    scroll = normal
+*/
+
+    background-attachment: fixed;
+}
+
+
+.pimg1{
+    background-image: url(/1.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(/adult-business-computer-374720.jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(/app-app-design-blue-yeti-907487.jpg);
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url(/aerial-aerial-view-application-935869.jpg);
+    min-height: 400px;
+}
+
+.pimg5{
+    background-image: url(/2.jpg);
+    min-height: 700px;
+}
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext1{
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    text-align: center;
+    color: rgb(252, 118, 8);
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#111;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#111;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#111;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext5{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:rgb(238, 248, 248);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.pxtext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+.buttons{
+    background-color:blue;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+
+.bg-model{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.model-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 7px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
